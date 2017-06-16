@@ -1,0 +1,47 @@
+{
+  "name": "crmcalculator",
+  "version": "1.0.0",
+  "description": "A CRM Calculator to see how a CRM will help you to save money",
+  "main": "scripts.js",
+  "repository": "git@gitlab.com:christhopherlion/crmcalculator.git",
+  "author": "Christhopher Leão",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=7"
+  },
+  "scripts": {
+    "start": "gulp serve",
+    "serve": "gulp serve:dist",
+    "compile": "gulp"
+  },
+  "Dependencies": {
+    "jquery": "latest"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-cache": "^0.4.6",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-eslint": "^4.0.0",
+    "gulp-filter": "^5.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-size": "^2.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.2",
+    "main-bower-files": "^2.13.1",
+    "run-sequence": "^1.2.2",
+    "wiredep": "^4.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
